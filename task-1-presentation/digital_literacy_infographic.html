@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digital Literacy Awareness Infographic</title>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Nunito', sans-serif;
+    background: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 32px 16px;
+    min-height: 100vh;
+  }
+  .page {
+    width: 780px;
+    background: #fff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.13);
+  }
+
+  /* HEADER */
+  .header {
+    background: linear-gradient(135deg, #0d2b4e 0%, #1a4a7a 60%, #1e6091 100%);
+    padding: 36px 40px 28px;
+    text-align: center;
+    position: relative;
+  }
+  .header::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0; height: 6px;
+    background: linear-gradient(90deg, #f0a500, #27ae60, #2176ae, #7b4fba, #c0392b);
+  }
+  .header .eyebrow {
+    font-size: 11px;
+    font-weight: 700;
+    color: #7fb3d8;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.1;
+    margin-bottom: 8px;
+  }
+  .header h1 span { color: #7dd3f8; }
+  .header .sub {
+    font-size: 14px;
+    color: #a8cce0;
+    font-weight: 400;
+  }
+
+  /* DEFINITION STRIP */
+  .definition {
+    background: #e8f4fd;
+    border-left: 6px solid #2176ae;
+    padding: 22px 32px;
+    display: flex;
+    gap: 18px;
+    align-items: flex-start;
+  }
+  .def-icon {
+    background: #2176ae;
+    color: #fff;
+    border-radius: 50%;
+    width: 48px; height: 48px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 22px;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+  .definition h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #0c3a5c;
+    margin-bottom: 7px;
+  }
+  .definition p {
+    font-size: 13px;
+    color: #1a4f72;
+    line-height: 1.7;
+  }
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin-top: 12px;
+  }
+  .tag {
+    background: #2176ae;
+    color: #e8f4fd;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 3px 11px;
+    border-radius: 20px;
+  }
+
+  /* THREE COLUMNS */
+  .columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .col {
+    padding: 22px 22px 24px;
+  }
+  .col-tools   { background: #fff8e1; border-top: 5px solid #f0a500; }
+  .col-safety  { background: #fce8e8; border-top: 5px solid #c0392b; }
+  .col-presence{ background: #e8f8ee; border-top: 5px solid #27ae60; }
+
+  .col-icon { font-size: 26px; margin-bottom: 7px; }
+  .col-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 14px;
+  }
+  .col-tools    .col-title   { color: #7a4f00; }
+  .col-safety   .col-title   { color: #7a1a1a; }
+  .col-presence .col-title   { color: #145a32; }
+
+  .col ul { list-style: none; }
+  .col ul li {
+    display: flex;
+    gap: 7px;
+    align-items: flex-start;
+    font-size: 12px;
+    line-height: 1.6;
+    margin-bottom: 9px;
+  }
+  .col ul li:last-child { margin-bottom: 0; }
+  .col-tools    ul li { color: #5a3a00; }
+  .col-safety   ul li { color: #5a1a1a; }
+  .col-presence ul li { color: #0e3d22; }
+
+  .bullet-tools    { color: #f0a500; font-weight: 700; flex-shrink: 0; }
+  .bullet-safety   { color: #c0392b; font-weight: 700; flex-shrink: 0; }
+  .bullet-presence { color: #27ae60; font-weight: 700; flex-shrink: 0; }
+
+  /* EMAIL ETIQUETTE */
+  .email-section {
+    background: #f3eefb;
+    border-top: 5px solid #7b4fba;
+    padding: 20px 28px 22px;
+  }
+  .email-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 14px;
+  }
+  .email-header .emoji { font-size: 22px; }
+  .email-header h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #4a1b7a;
+  }
+  .email-cards {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+  }
+  .email-card {
+    background: #7b4fba;
+    border-radius: 10px;
+    padding: 12px 8px;
+    text-align: center;
+  }
+  .email-card .ec-icon { font-size: 20px; margin-bottom: 5px; }
+  .email-card .ec-label {
+    font-size: 10px;
+    font-weight: 700;
+    color: #e8d8f8;
+    line-height: 1.35;
+  }
+
+  /* FOOTER / WHY IT MATTERS */
+  .footer {
+    background: linear-gradient(135deg, #0d2b4e 0%, #1a4a7a 100%);
+    padding: 18px 32px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .footer .rocket { font-size: 26px; flex-shrink: 0; }
+  .footer p {
+    font-size: 12px;
+    color: #a8cce0;
+    line-height: 1.65;
+  }
+  .footer strong { color: #fff; }
+
+  /* DIVIDERS BETWEEN COLUMNS */
+  .col + .col { border-left: 1px solid rgba(0,0,0,0.06); }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="eyebrow">Student Digital Ambassador</div>
+    <h1>Digital <span>Literacy</span></h1>
+    <p class="sub">Understanding the Digital World — and Thriving in It</p>
+  </div>
+
+  <!-- DEFINITION -->
+  <div class="definition">
+    <div class="def-icon">💡</div>
+    <div>
+      <h2>What is Digital Literacy?</h2>
+      <p>
+        <strong>Digital literacy</strong> is the ability to find, evaluate, create, and communicate information using digital technologies — safely, ethically, and effectively. It is not just about knowing how to use a device; it is about <em>thinking critically and acting responsibly</em> in a digital world.
+      </p>
+      <div class="tags">
+        <span class="tag">Find information</span>
+        <span class="tag">Evaluate sources</span>
+        <span class="tag">Create content</span>
+        <span class="tag">Communicate online</span>
+        <span class="tag">Stay safe</span>
+        <span class="tag">Think critically</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- THREE COLUMNS -->
+  <div class="columns">
+
+    <!-- Useful Digital Tools -->
+    <div class="col col-tools">
+      <div class="col-icon">🛠️</div>
+      <div class="col-title">Useful Digital Tools for Students</div>
+      <ul>
+        <li><span class="bullet-tools">▸</span><span><strong>Google Docs / Drive</strong> — cloud documents &amp; file storage</span></li>
+        <li><span class="bullet-tools">▸</span><span><strong>Canva</strong> — design presentations &amp; graphics easily</span></li>
+        <li><span class="bullet-tools">▸</span><span><strong>Notion / Trello</strong> — organise tasks, notes &amp; projects</span></li>
+        <li><span class="bullet-tools">▸</span><span><strong>Zoom / Google Meet</strong> — video calls &amp; collaboration</span></li>
+        <li><span class="bullet-tools">▸</span><span><strong>Grammarly</strong> — improve writing &amp; grammar</span></li>
+      </ul>
+    </div>
+
+    <!-- Safe Internet Practices -->
+    <div class="col col-safety">
+      <div class="col-icon">🔒</div>
+      <div class="col-title">Safe Internet Practices</div>
+      <ul>
+        <li><span class="bullet-safety">▸</span><span>Use <strong>strong, unique passwords</strong> for every account</span></li>
+        <li><span class="bullet-safety">▸</span><span>Enable <strong>two-factor authentication (2FA)</strong> always</span></li>
+        <li><span class="bullet-safety">▸</span><span><strong>Think before you click</strong> — spot phishing links</span></li>
+        <li><span class="bullet-safety">▸</span><span>Keep <strong>personal info private</strong> — no oversharing</span></li>
+        <li><span class="bullet-safety">▸</span><span>Use <strong>trusted websites</strong> with https:// only</span></li>
+      </ul>
+    </div>
+
+    <!-- Professional Online Presence -->
+    <div class="col col-presence">
+      <div class="col-icon">🌐</div>
+      <div class="col-title">Professional Online Presence</div>
+      <ul>
+        <li><span class="bullet-presence">▸</span><span>Build a <strong>LinkedIn profile</strong> with real achievements</span></li>
+        <li><span class="bullet-presence">▸</span><span>Use a <strong>professional photo</strong> &amp; clear bio</span></li>
+        <li><span class="bullet-presence">▸</span><span><strong>Google yourself</strong> — know your digital footprint</span></li>
+        <li><span class="bullet-presence">▸</span><span>Keep social media <strong>employer-appropriate</strong></span></li>
+        <li><span class="bullet-presence">▸</span><span>Share <strong>relevant work or projects</strong> online</span></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- EMAIL ETIQUETTE -->
+  <div class="email-section">
+    <div class="email-header">
+      <span class="emoji">✉️</span>
+      <h2>Email Etiquette — 5 Golden Rules</h2>
+    </div>
+    <div class="email-cards">
+      <div class="email-card">
+        <div class="ec-icon">📝</div>
+        <div class="ec-label">Clear subject line</div>
+      </div>
+      <div class="email-card">
+        <div class="ec-icon">🙋</div>
+        <div class="ec-label">Greet professionally</div>
+      </div>
+      <div class="email-card">
+        <div class="ec-icon">✂️</div>
+        <div class="ec-label">Keep it concise</div>
+      </div>
+      <div class="email-card">
+        <div class="ec-icon">🔍</div>
+        <div class="ec-label">Proofread before sending</div>
+      </div>
+      <div class="email-card">
+        <div class="ec-icon">⏱️</div>
+        <div class="ec-label">Reply within 24 hours</div>
+      </div>
+    </div>
+  </div>
+
+
+
+</div>
+</body>
+</html>
