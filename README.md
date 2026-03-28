@@ -20,6 +20,7 @@ This repository contains all the work completed as part of the **Student Digital
 Designed a one-page visual infographic to understand what Digital Literacy means and why it matters.
 
 📂 **Folder:** `task-1-presentation/`
+
 https://github.com/priyansh1404/Digital_Literacy_Project/tree/main/task-1-presentation
 
 ---
@@ -42,6 +43,7 @@ Explored both a coding practice platform and a cloud collaboration tool to build
 
 📂 **Folder:** `task-3-platforms/`
 
+https://github.com/priyansh1404/Digital_Literacy_Project/tree/main/task-3-platforms
 ---
 
 ### ✅ Task 4 – Draft a Professional Email & Etiquette Guide
