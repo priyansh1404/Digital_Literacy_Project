@@ -29,7 +29,7 @@ https://github.com/priyansh1404/Digital_Literacy_Project/tree/main/task-1-presen
 Set up a professional digital presence across three key platforms used by employers, internship coordinators, and the academic community.
 
 📂 **Folder:** `task-2-portfolio/`
-
+https://github.com/priyansh1404/Digital_Literacy_Project/tree/main/task-2-portfolio
 ---
 
 ### ✅ Task 3 – Explore Coding & Collaboration Platforms
