@@ -56,4 +56,3 @@ If you are a victim of any online fraud, cyberbullying, or identity theft, repor
 
 ---
 
-*Created for Digital Ambassador Task 5 | Awareness Resource for Indian College Students*
