@@ -40,4 +40,3 @@ Victims suffer immediate financial loss - often ₹5,000 to ₹2,00,000 - with l
 
 ---
 
-*This is a fictional but realistic scenario designed for educational awareness.*
