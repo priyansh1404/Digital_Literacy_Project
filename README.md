@@ -20,6 +20,7 @@ This repository contains all the work completed as part of the **Student Digital
 Designed a one-page visual infographic to understand what Digital Literacy means and why it matters.
 
 📂 **Folder:** `task-1-presentation/`
+https://github.com/priyansh1404/Digital_Literacy_Project/tree/main/task-1-presentation
 
 ---
 
@@ -45,9 +46,6 @@ Explored both a coding practice platform and a cloud collaboration tool to build
 
 Practised professional digital communication by drafting two formal emails and creating a Social Media Do's and Don'ts checklist.
 
-
-- **Part B:** Social media checklist with 5 Do's and 5 Don'ts for responsible online conduct as a college student
-
 📂 **Folder:** `task-4-email-etiquette/`
 
 ---
@@ -55,10 +53,6 @@ Practised professional digital communication by drafting two formal emails and c
 ### ✅ Task 5 – Cybercrime Awareness Case Study & Prevention Guide
 
 Researched a real-world cybercrime type and produced an awareness resource to help peers stay safe online.
-
-🔗 **Reporting Resources:**
-- National Cyber Crime Portal: [https://cybercrime.gov.in](https://cybercrime.gov.in)
-- Cyber Crime Helpline: **1930**
 
 📂 **Folder:** `task-5-cybercrime/`
 
