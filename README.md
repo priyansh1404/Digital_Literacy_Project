@@ -20,6 +20,7 @@ This repository contains all the work completed as part of the **Student Digital
 Designed a one-page visual infographic to understand what Digital Literacy means and why it matters.
 
 📂 **Folder:** `task-1-presentation/`
+task-1-presentation
 
 ---
 
