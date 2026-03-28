@@ -13,7 +13,7 @@ UPI payment fraud is a form of digital financial crime where attackers deceive i
 
 ## How It Typically Happens (Step-by-Step)
 
-1. **Target Selection:** The fraudster identifies a target — often through social media, OLX/Quikr listings, or random calls — posing as a buyer, bank official, or government representative.
+1. **Target Selection:** The fraudster identifies a target - often through social media, OLX/Quikr listings, or random calls - posing as a buyer, bank official, or government representative.
 
 2. **Building Trust:** The attacker contacts the victim claiming there is a pending refund, cashback, or payment issue that needs to be "verified."
 
@@ -36,7 +36,7 @@ UPI payment fraud is a form of digital financial crime where attackers deceive i
 
 ## Consequences
 
-Victims suffer immediate financial loss — often ₹5,000 to ₹2,00,000 — with little legal recourse due to the self-authorised nature of UPI transactions. Beyond monetary loss, victims experience psychological distress, loss of trust in digital banking, and in some cases, debt if the debited amount was borrowed or essential. Reports to banks are often delayed, reducing the chance of a chargeback or freeze on the fraudster's account.
+Victims suffer immediate financial loss - often ₹5,000 to ₹2,00,000 - with little legal recourse due to the self-authorised nature of UPI transactions. Beyond monetary loss, victims experience psychological distress, loss of trust in digital banking, and in some cases, debt if the debited amount was borrowed or essential. Reports to banks are often delayed, reducing the chance of a chargeback or freeze on the fraudster's account.
 
 ---
 
