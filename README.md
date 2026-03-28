@@ -44,6 +44,7 @@ Explored both a coding practice platform and a cloud collaboration tool to build
 📂 **Folder:** `task-3-platforms/`
 
 https://github.com/priyansh1404/Digital_Literacy_Project/tree/main/task-3-platforms
+
 ---
 
 ### ✅ Task 4 – Draft a Professional Email & Etiquette Guide
@@ -51,6 +52,8 @@ https://github.com/priyansh1404/Digital_Literacy_Project/tree/main/task-3-platfo
 Practised professional digital communication by drafting two formal emails and creating a Social Media Do's and Don'ts checklist.
 
 📂 **Folder:** `task-4-email-etiquette/`
+
+https://github.com/priyansh1404/Digital_Literacy_Project/tree/main/task-4-email-etiquette
 
 ---
 
