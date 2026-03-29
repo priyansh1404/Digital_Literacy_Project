@@ -39,7 +39,7 @@ https://github.com/priyansh1404/Digital_Literacy_Project/tree/main/task-2-portfo
 
 Explored both a coding practice platform and a cloud collaboration tool to build familiarity with essential academic and professional tools.
 
-🔗 **Google Form Link:** [Insert your Google Form link here]
+🔗 **Google Form Link:**
 https://forms.gle/d16Bwsy8kZmgA6qx7
 
 📂 **Folder:** `task-3-platforms/`
