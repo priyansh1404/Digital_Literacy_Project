@@ -54,5 +54,5 @@ If you are a victim of any online fraud, cyberbullying, or identity theft, repor
 
 > **Tip:** For UPI fraud, call **1930 within the first hour** - faster reporting improves the chance of freezing the fraudster's account before funds are withdrawn.
 
----
+----
 
